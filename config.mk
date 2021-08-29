@@ -12,7 +12,7 @@ X11LIB = /usr/lib
 
 # flags
 CPPFLAGS = -I$(X11INC) -D_DEFAULT_SOURCE
-CFLAGS   = -std=c99 -pedantic -Wall -Wextra -O3 -mtune=skylake
+CFLAGS   = -std=c99 -pedantic -Wall -Wextra -O3 -mtune=znver3
 LDFLAGS  = -L$(X11LIB) -s
 # OpenBSD: add -lsndio
 # FreeBSD: add -lkvm
